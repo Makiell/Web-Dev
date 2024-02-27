@@ -1,0 +1,46 @@
+.image-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.7;
+}
+
+.image-nav:hover {
+    opacity: 1;
+    /* Полная непрозрачность при наведении */
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.like{
+    cursor: pointer;
+    margin-top: 4%;
+    font-weight: 600;
+    color: brown;
+}
+
+.like:hover{
+    color: red;
+}
+
+.delete{
+    margin-top: 4%;
+    background-color: rgb(178, 9, 9);
+    font-weight: 800;
+}
